@@ -1,0 +1,19 @@
+nextPositionDude Entity/WorldModel
+Chose WorldModel becasue many of the variables referenced were variables from the
+WorldModel Class, meaning I could simplify the code.
+
+removeEntityAt Entity/WorldModel
+It literally has Entity in the name, but really it is a worldModel
+method because of its references and use within the WorldModel class
+
+addEntity, tryAddEntity Entity/WorldModel
+^^see prev. explanation
+
+All the "create___" methods. Entity/WorldModel
+I chose to put them in Entity because of the name really. It seemed to make sense
+at the time even though I notice they are used almost completely in WorldModel
+
+drawViewport Viewport/VirtualWorld
+I choose to put it in viewport because that is the obvious choice. Oh wait
+I didn't? Why? I'm not sure, but ended up in WorldView.
+
